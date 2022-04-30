@@ -22,7 +22,10 @@
 # Realice un algoritmo que resuelva la siguiente situación: un producto tenía un precio inicial que debe solicitarse y ahora tiene un nuevo valor, mayor, que también deberá pedirse, determine el porcentaje de incremento del producto. 
 * 1.Inicio
 * 2.Declarar (Precio inicial, Precio nuevo, Incremento)
-* 3.Ingresar valores de (Precio inicial, Precio nuevo)
-* 4.Incremento = Precio inicial - Precio nuevo / Precio inicial x 100
-* 5.Mostrar (Incremento)
-* 6.Fin
+* 3.mostrar ("porfavor ingresa precio inicial")
+* 4.asignar(Precio inicial)
+* 5.mostrar ("porfavor ingresa precio final")
+* 6.asignar(Precio nuevo)
+* 7.Incremento = (Precio nuevo - Precio inicial) / Precio inicial x 100
+* 8.Mostrar (Incremento)
+* 9.Fin
