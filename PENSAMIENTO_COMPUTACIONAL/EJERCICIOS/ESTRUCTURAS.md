@@ -68,7 +68,17 @@
 * 3.Escribir "Porfavor ingresa un número del 1 al 12"
 * 4.Asignar (mes)
 * 5.Si mes = 1 entonces
-escribir "Enero"
+escribir "El mes número 1 es enero"
+sino entonces          
+* 6.Si mes = 2 entonces
+escribir "El mes número 2 es febrero"
+* 7.Si mes = 3 entonces
+escribir "El mes número 3 es marzo"
+* 8.Si mes = 4 entonces
+escribir "El mes número 4 es abril"
+* 9.Si mes = 5 entonces
+escribir "El mes número 5 es mayo"
+* 10.Si mes =6
 * 18.Fin
 * VI.De un programa que permita al usuario elegir un candidato por el cual votar. Las posibilidades son: candidato A por el partido rojo, candidato B por el partido verde, candidato C por el partido azul. Según el candidato elegido (A, B ó C) se le debe imprimir el mensaje “Usted ha votado por el partido [color que corresponda al candidato elegido]”. Si el usuario ingresa una opción que no corresponde a ninguno de los candidatos disponibles, indicar “Opción errónea”.
 * VII.Para un programa que almacene la cadena de caracteres para una contraseña y email, pregunte al usuario por la contraseña y email e imprima por pantalla si la contraseña y el email introducidos por el usuario coincide con los guardadados en las variables.
