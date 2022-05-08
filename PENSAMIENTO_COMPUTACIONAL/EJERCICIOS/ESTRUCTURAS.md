@@ -80,5 +80,34 @@ escribir "El mes número 4 es abril"
 escribir "El mes número 5 es mayo"
 * 10.Si mes =6
 * 18.Fin
+* ![image](https://user-images.githubusercontent.com/99296446/167315781-be0b9db1-e4fa-4f3f-8628-9ada3f2dd60f.png)
+![image](https://user-images.githubusercontent.com/99296446/167315832-79f6156f-534d-4889-9d3c-0422e33d6793.png)
+* ![image](https://user-images.githubusercontent.com/99296446/167315835-56fb6d1f-5dc4-4106-b46a-f34731ded347.png)
 * VI.De un programa que permita al usuario elegir un candidato por el cual votar. Las posibilidades son: candidato A por el partido rojo, candidato B por el partido verde, candidato C por el partido azul. Según el candidato elegido (A, B ó C) se le debe imprimir el mensaje “Usted ha votado por el partido [color que corresponda al candidato elegido]”. Si el usuario ingresa una opción que no corresponde a ninguno de los candidatos disponibles, indicar “Opción errónea”.
+* 1.Inicio
+* 2.Declarar (voto)
+* 3.Escribir "Porfavor vota por: Rojo, verde, o azul"
+* 4.Leer (voto)
+* 5.Si voto <> "Rojo" o voto <> "Azúl" o voto <> "Verde" entonces               
+Si voto == "Rojo" entonces
+Escribir "Usted ha votado por el partido rojo"
+Sino 
+Si voto == "Azul" entonces
+Escribir "Usted ha votado por el partido azul"
+Sino
+Escribir "Usted ha votado por el partido verde"
+Sino escribir "Opción erronea"
+* ![image](https://user-images.githubusercontent.com/99296446/167316318-6ea2ee9c-09f7-41df-b9e2-2489be747007.png)
+![image](https://user-images.githubusercontent.com/99296446/167316291-6614c426-79fa-414a-8c0d-66eaba1b6361.png)
 * VII.Para un programa que almacene la cadena de caracteres para una contraseña y email, pregunte al usuario por la contraseña y email e imprima por pantalla si la contraseña y el email introducidos por el usuario coincide con los guardadados en las variables.
+* 1.Inicio
+* 2.Declarar (e, c)
+* 3.Escribir "Porfavor ingrese su email y luego su contraseña"
+* 4.Asignar (e, c)
+* 5.Si e=="virusneko" y c=="elmejorprogramador" entonces
+escribir "Tu usuario y tu email son correctos, iniciando sesion"
+sino
+escribir "Tu usuario o ocntraseña son incorrectos, porfavor intenta de nuevo"
+* 6.Fin
+* ![image](https://user-images.githubusercontent.com/99296446/167317132-8b98eb0e-180b-43a1-8025-80cec89515a5.png)
+![image](https://user-images.githubusercontent.com/99296446/167317145-b6aab016-db1d-4ab1-94ee-5c08d0132eca.png)
